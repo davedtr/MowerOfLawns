@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+/* comment */
+
+/* effect whole page */
+* {
+    background-color: lightgreen;
+    box-sizing: border-box;
+    padding: 4px 8px 4px 8px;
+}
+/* padding is in clockwise */
+
+/* modifiers for all images */
+/* img { */
+    /* width: 25%; */
+/* } */
+
+/* everything in body */
+body {
+    background-color: lightgreen;
+    margin: 2px;
+    background-image: url(background.jpeg);
+}
+
+/* the navbar */
+#navbar {
+    background-color: gray;
+    background-image: url(greybg.jpg);
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#navbar a {
+    color: lightcyan;
+    text-decoration: none;
+    background-color: gray;
+    background-image: url(greybg.jpg);
+}
+
+#navbar a:hover {
+    color: gold;
+}
+
+/* in container1 */
+
+
+/* all h1 headers */
+h1 {
+    color: cornflowerblue;
+    font-size: 45px
+}
+
+/* all paragraphs */
+p {
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* creating classes and ids */
+#welcome {
+    font-size: 30px;
+    background-color: lightseagreen;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.containerbig {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.large {
+    font-size: 30px;
+}
+
+.med {
+    font-size: 20px;
+}
+
+.blue {
+    background-color: lightskyblue;
+}
+
+.center {
+    text-align: center;
+}
+
+.rightendside {
+    text-align: right;
+}
+
+#topbg {
+    background-color: lightgreen;
+}
+
+#midbg {
+    background-color: lightsteelblue;
+}
+
+#botbg {
+    background-color: limegreen;
+}
+
+@keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+  
+#lawnone {
+    background-color: limegreen;
+    animation: flicker 2s ease alternate infinite;
+}
+
+#lawntwo {
+    background-color: limegreen;
+    animation: flicker 3s ease alternate infinite;
+}
+
+#lawnthree {
+    background-color: limegreen;
+    animation: flicker 4s ease alternate infinite;
+}
+
+.lawnbg1 {
+    background-image: url(uncutlawn1.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.lawnbg2 {
+    background-image: url(uncutlawn2.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.lawnbg3 {
+    background-image: url(uncutlawn3.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+
+.gamecon {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items:flex-start;
+    image-resolution: 20/20;
+    width: 20px;
+    height: 20px
+}
+
+#spoiler_text {display: none;}
