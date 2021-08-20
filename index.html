@@ -35,10 +35,10 @@
     <h3 class="large center">Official site for Mower Of Lawns</h3>
     <!-- <p>Click here to read <a href="chapter1"> Chapter1 </a> </p> -->
 
-    <p id="welcome">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate explicabo fuga dolorum harum fugit excepturi cumque iusto pariatur dolores animi, error exercitationem fugiat nesciunt itaque distinctio mollitia alias quibusdam minima deserunt odit laborum qui.
+    <p id="welcome">Experience the beauty and detail of mowing the Great British countryside in Lawn Mowing Simulator, the only simulator that allows you to ride an authentic and expansive roster of real-world licensed lawn mowers from prestigious manufacturers; Toro, SCAG and STIGA as you manage your business.
     </p>
 
-    <p class="center large blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, aperiam quas.
+    <p class="center large blue">You can find the experience of mowing lawns below.
     </p>
 
     
@@ -50,14 +50,17 @@
     <h1 class="large rightendside" id="midbg">Mower Of Lawns</h1>
     <img src="lawn4.jpg" alt="wallpaper">
 
-    <div class="container" id="midbg">
-               
+    <div class="container med" id="midbg">
+        <p class="med">
+            Click on the grass below until all 9 images change
+        </p>
         
 
     </div>
 
     <div class="gamecon">
-
+        
+        <input id=”lawn_button1” name=”lawn_button1” src="lawntocut1.jpg" onclick="var thisBody=this.parentNode.parentNode.getElementsByClassName('lgb1');if(this.value=='Show'){thisBody.style.display='';this.value='Hide';}else{thisBody.style.display='none';this.value='Show';}" type="button">
         <button id=”lawn_button1” name=”lawn_button1” type=”button”><img src="lawntocut1.jpg"></button>
         <button id=”lawn_button2” name=”lawn_button2” type=”button”><img src="lawntocut1.jpg"></button>
         <button id=”lawn_button3” name=”lawn_button3” type=”button”><img src="lawntocut1.jpg"></button>
@@ -72,10 +75,14 @@
 
     <h3 id="midbg" class="med center">Official site for Mower Of Lawns</h3>
 
+    <h4 class="med" id="midbg">If you enjoy simulations of lawn mowing. Check out games below.</h4>
     <div>
-        <button id=”spoiler_button” name=”spoiler_button” type=”button”> Spoilers:
-        </button>
-        <!-- id=”spoiler_text” -->
+        <input value="Show" onclick="var thisBody=this.parentNode.parentNode.getElementsByClassName('Splr1')[0];if(this.value=='Show'){thisBody.style.display='';this.value='Hide';}else{thisBody.style.display='none';this.value='Show';}" type="button"> Spoilers:
+        <div class="Splr1" style="display: none;">
+            <h4 class="med">Lawn Mower Simulator</h4>
+            <a href="https://store.steampowered.com/app/1480560/Lawn_Mowing_Simulator/">https://store.steampowered.com/app/1480560/Lawn_Mowing_Simulator</a>
+            <img src="lms1.jpg" alt="wallpaper" id="botbg">
+        </div>
     </div>
 
     
@@ -83,8 +90,26 @@
 <!-- bot -->
 <div id="botbg">
 
-
- 
+    <h4 class="med" id="midbg">Videos of other people who enjoy Lawn Mowing Simulator</h4>
+    <div id="midbg">
+        <input value="Show" onclick="var thisBody=this.parentNode.parentNode.getElementsByClassName('Splr2')[0];if(this.value=='Show'){thisBody.style.display='';this.value='Hide';}else{thisBody.style.display='none';this.value='Show';}" type="button"> Spoilers:
+        
+        
+        <div class="Splr2" style="display: none;">
+             
+            <h4 class="med">Jericho</h4>
+            <a href="https://www.youtube.com/watch?v=ek8YQWZWZoo">https://www.youtube.com/watch?v=ek8YQWZWZoo</a>
+            <img src="mqdefault_6s3.webp" alt="wallpaper">
+            <h4 class="med">MoreKryoz</h4>
+            <a href="https://www.youtube.com/watch?v=7ZP94hgsWJg">https://www.youtube.com/watch?v=7ZP94hgsWJg</a>
+            <img src="mqdefault_6s2.webp" alt="wallpaper">
+            <h4 class="med">SMii7Y</h4>
+            <a href="https://www.youtube.com/watch?v=9TLYfil0qQs">https://www.youtube.com/watch?v=9TLYfil0qQs</a>
+            <img src="mqdefault_6s.webp" alt="wallpaper">
+        </div>
+    </div>
+</div>
+    
 <!-- navbar copy at the bottom of the page -->
     <div id="navbar">
         <a href="aboutme.html">About</a>
@@ -92,20 +117,13 @@
     </div>
 </div>
 
+<!-- <input value="Show" onclick="var thisBody=this.parentNode.parentNode.getElementsByClassName('Splr3')[0];if(this.value=='Show'){thisBody.style.display='';this.value='Hide';}else{thisBody.style.display='none';this.value='Show';}" type="button">
+<div class="Splr3"><hr>test</div> -->
 
-<script>
- 
-    var divToggleVis = document.getElementById('spoiler_text');
-    var button = document.getElementById('spoiler_button');
-   
-    button.onclick = function() {
-        if (divToggleVis.style.display === 'none') {
-            divToggleVis.style.display = 'block';
-        } else {
-            divToggleVis.style.display = 'none';
-        }
-   
-    };
-</script>
 </body>
 </html>
+
+
+
+
+<!-- <input style="width:5em!important;margin-right:.25em" class="SplrB button2" value="Show" onclick="var thisBody=this.parentNode.parentNode.getElementsByClassName('SplrC')[0];if(this.value=='Show'){thisBody.style.display='';this.value='Hide';}else{thisBody.style.display='none';this.value='Show';}" type="button"> -->

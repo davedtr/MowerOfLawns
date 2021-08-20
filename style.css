@@ -74,6 +74,22 @@ p {
     width: 100%;
 }
 
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
 .containerbig {
     display: flex;
     justify-content: space-evenly;
@@ -158,12 +174,37 @@ p {
 
 .gamecon {
     display: flex;
-    justify-content: start;
     flex-direction: row;
-    align-items:flex-start;
-    image-resolution: 20/20;
-    width: 20px;
-    height: 20px
+    flex-wrap: wrap;
+    
 }
 
-#spoiler_text {display: none;}
+#phonehover {
+    color: blue;
+    
+}
+
+#phonehover a {
+    color: blue;
+}
+
+#phonehover a:hover {
+    display: flex;
+    background-image: url(phone1.png);
+    width: min-content;
+    height: min-content;
+    
+}
+
+.hidden {
+    height: 0;
+    opacity: 0;
+}
+
+.navbar_fixed_top {
+    top: 0;
+}
+
+.SplrC {
+    background-color: hotpink;
+}
